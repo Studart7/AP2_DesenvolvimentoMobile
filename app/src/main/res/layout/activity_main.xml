@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="346dp"
+        android:layout_above="@+id/bem_vindo_text"
+        android:layout_marginBottom="-26dp"
+        android:contentDescription="Ícone de estrela"
+        android:src="@drawable/resultado" />
+
+    <TextView
+        android:id="@+id/bem_vindo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Avaliação de Restaurantes!"
+        android:textSize="24sp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:layout_below="@id/bem_vindo_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

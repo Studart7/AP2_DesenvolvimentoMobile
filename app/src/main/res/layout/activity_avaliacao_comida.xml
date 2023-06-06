@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AvalComidaActivity">
+
+    <ImageView
+        android:layout_width="396dp"
+        android:layout_height="263dp"
+        android:contentDescription="Ícone de estrela"
+        android:src="@drawable/comida" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avalie a comida:"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/comida_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Próximo" />
+
+</LinearLayout>
